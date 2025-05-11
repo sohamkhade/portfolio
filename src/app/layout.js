@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Soham Khade",
   description: "Welcome to my portfolio",
+    icons: {
+        icon: "./titleBarIcon.png", // Replace with your favicon file path
+    },
 };
 import { ThemeProvider } from 'next-themes'
 import Navbar from "@/components/Navbar";
