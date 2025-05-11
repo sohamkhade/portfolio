@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"; // Using React Icons (Fon
 
 const HeroSection = () => {
     return (
-        <div className="relative px-4 pt-12 sm:px-8 lg:px-12 sm:pt-40 sm:pb-40 h-[80vh]">
+        <div className="relative px-4 pt-12 pb-12 sm:px-8 lg:px-12 sm:pt-40 sm:pb-40 ">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
                 <div className="max-w-2xl">
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
