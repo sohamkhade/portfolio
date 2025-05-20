@@ -8,10 +8,10 @@ const HeroSection = () => {
         <div className="relative px-4 pt-12 pb-12 sm:px-8 lg:px-12 sm:pt-40 sm:pb-40 ">
             <div className="mx-auto max-w-2xl lg:max-w-5xl">
                 <div className="max-w-2xl">
-                    <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                    <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-100">
                         Software engineer, team player, and startup enthusiast.
                     </h1>
-                    <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                    <p className="mt-6 text-base text-zinc-400">
                         I’m Soham Khade, a full-stack developer passionate about building scalable products and exploring new technologies. I recently completed my Master’s at USC and am currently seeking opportunities where I can contribute and grow.
                     </p>
 

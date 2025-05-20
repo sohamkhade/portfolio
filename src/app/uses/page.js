@@ -272,19 +272,19 @@ const Section = ({ title, items }) => {
     return (
         <section className="md:border-l md:border-stone-50 md:pl-6">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-xl font-semibold text-zinc-800 dark:text-zinc-100 mb-6">
+                <h2 className="text-xl font-semibold text-zinc-100 mb-6">
                     {title}
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {displayedItems.map(({ title, description }) => (
                         <div
                             key={title}
-                            className="bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow duration-200"
+                            className="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow duration-200"
                         >
-                            <h3 className="text-lg font-semibold text-zinc-800 dark:text-zinc-100">
+                            <h3 className="text-lg font-semibold text-zinc-100">
                                 {title}
                             </h3>
-                            <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                            <p className="mt-2 text-sm text-zinc-400">
                                 {description}
                             </p>
                         </div>
@@ -308,10 +308,10 @@ const UsesPage = () => {
     return (
         <div className="bg-black flex flex-col mx-auto px-4 sm:px-0 md:px-8 pb-8">
             <header className=" flex flex-col mx-auto max-w-2xl">
-                <h1 className="mt-8 text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                <h1 className="mt-8 text-4xl font-bold tracking-tight  sm:text-5xl text-zinc-100">
                     Software I use, gadgets I love, and other things I recommend.
                 </h1>
-                <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                <p className="mt-6 text-base text-zinc-400">
                     People often ask me what I use for development, productivity, or even
                     just day-to-day work. Here’s my full gear and software setup.
                 </p>

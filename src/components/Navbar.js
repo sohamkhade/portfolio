@@ -21,7 +21,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="bg-white dark:bg-black text-black dark:text-white py-4 px-6 shadow-md relative z-50">
+        <nav className="bg-black text-white py-4 px-6 shadow-md relative z-50">
             <div className="max-w-5xl mx-auto flex items-center justify-between">
                 {/* Profile Icon */}
                 <div className="flex items-center space-x-2 cursor-pointer" onClick={handleClick}>

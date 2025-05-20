@@ -15,7 +15,7 @@ const AboutSection = () => {
                                 height="500"
                                 decoding="async"
                                 data-nimg="1"
-                                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 scale-100 object-center"
+                                className="aspect-square rotate-3 rounded-2xl object-cover bg-zinc-800 scale-100 object-center"
                                 sizes="(min-width: 1024px) 32rem, 20rem"
                                 src="/aboutMe.png"
                                 style={{color: "transparent"}}
@@ -23,12 +23,12 @@ const AboutSection = () => {
                         </div>
                     </div>
                     <div className="lg:order-first lg:row-span-2">
-                        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-100">
                             I’m Soham Khade.<br/> I live in California, where I build software that solves real-world
                             problems.
                         </h1>
 
-                        <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+                        <div className="mt-6 space-y-7 text-base text-zinc-400">
                             <p>
                                 I’ve loved building and experimenting with technology for as long as I can remember. I
                                 wrote my first program when I was a kid, driven by curiosity and the thrill of making
@@ -66,7 +66,7 @@ const AboutSection = () => {
                         <ul role="list">
                             <li className="mt-4 flex">
                                 <a
-                                    className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                    className="group flex text-sm font-medium transition text-zinc-200 hover:text-teal-500"
                                     href="https://github.com/sohamkhade"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -77,7 +77,7 @@ const AboutSection = () => {
                             </li>
                             <li className="mt-4 flex">
                                 <a
-                                    className="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                    className="group flex text-sm font-medium transition text-zinc-200 hover:text-teal-500"
                                     href="https://www.linkedin.com/in/soham-khade-230855193/"
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -89,11 +89,11 @@ const AboutSection = () => {
                         </ul>
 
                         {/* Divider */}
-                        <div className="my-6 border-t border-zinc-200 dark:border-zinc-700" />
+                        <div className="my-6 border-t border-zinc-700" />
 
                         {/* Email Link */}
                         <a
-                            className="group mt-4 flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                            className="group mt-4 flex text-sm font-medium transition text-zinc-200 hover:text-teal-500"
                             href="mailto:sohambkhade@gmail.com"
                         >
                             <Mail className="h-6 w-6 flex-none text-zinc-500 transition group-hover:text-teal-500" />

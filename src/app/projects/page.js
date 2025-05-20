@@ -67,10 +67,10 @@ export default function Projects() {
                     <div className="relative px-4 sm:px-8 lg:px-12">
                         <div className="mx-auto max-w-2xl lg:max-w-5xl">
                             <header className="max-w-2xl">
-                                <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-100">
                                     Things I’ve made trying to put my dent in the universe.
                                 </h1>
-                                <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                                <p className="mt-6 text-base text-zinc-400">
                                     I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of.
                                     If you see something that piques your interest, check out the code and contribute if you have ideas for
                                     how it can be improved.
@@ -92,13 +92,13 @@ export default function Projects() {
                                                 key={project.name}
                                                 className="group relative flex flex-col items-start rounded-2xl transition bg-zinc-900 hover:bg-zinc-800 p-4 sm:p-6"
                                             >
-                                                <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+                                                <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-zinc-900/5 border border-zinc-700/50 bg-zinc-800 ring-0">
                                                     {project.icon}
                                                 </div>
-                                                <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100 relative z-10">
+                                                <h2 className="mt-6 text-base font-semibold text-zinc-100 relative z-10">
                                                     {project.name}
                                                 </h2>
-                                                <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
+                                                <p className="relative z-10 mt-2 text-sm text-zinc-400">
                                                     {isExpanded ? project.description : shortDesc}
                                                     {showToggle && (
                                                         <button
@@ -109,11 +109,11 @@ export default function Projects() {
                                                         </button>
                                                     )}
                                                 </p>
-                                                <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                                                <p className="relative z-10 mt-6 flex text-sm font-medium t transition group-hover:text-teal-500 text-zinc-200">
                                                     <ExternalLink className="h-6 w-6 flex-none" />
                                                     <a
                                                         href={project.url}
-                                                        className="ml-2 text-teal-500 hover:text-teal-700 dark:text-teal-300 dark:hover:text-teal-500"
+                                                        className="ml-2 text-teal-300 hover:text-teal-500"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                     >

@@ -28,7 +28,7 @@ const ContactMe = () => {
     };
 
     return (
-        <div className="mx-auto bg-black max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto bg-black max-w-3xl min-h-screen px-4 py-16 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl mb-6">
                 Get in Touch
             </h1>
