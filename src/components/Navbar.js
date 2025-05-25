@@ -26,7 +26,7 @@ const Navbar = () => {
                 {/* Profile Icon */}
                 <div className="flex items-center space-x-2 cursor-pointer" onClick={handleClick}>
                     <img
-                        src="/profilePic.jpeg"
+                        src="/images/profilePic.jpeg"
                         alt="Profile"
                         className={`w-14 h-14 rounded-full transform scale-x-[-1] transition-all duration-300 ${
                             pathname === "/" ? "ring-2 ring-offset-4 ring-offset-black ring-teal-500" : ""

@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import ContactMe from "@/components/ContactMe";
+import ContactMe from "@/components/Portfolio/ContactMe";
 
 const ContactPage = () => {
     return <div className={"bg-black"}><ContactMe /> </div>

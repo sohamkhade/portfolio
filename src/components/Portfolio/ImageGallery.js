@@ -3,11 +3,11 @@ import React from 'react';
 const ImageGallery = () => {
     const images = [
 
-        './img2.jpg',
-        './img3.jpg',
-        'usc.jpeg',
-        './img5.jpg',
-        './img6.jpeg',
+        './images/img2.jpg',
+        './images/img3.jpg',
+        './images/usc.jpeg',
+        './images/img5.jpg',
+        './images/img6.jpeg',
     ];
 
     return (

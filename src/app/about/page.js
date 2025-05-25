@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import WorkExperience from "@/components/WorkExperience";
+import HeroSection from "@/components/Portfolio/HeroSection";
+import WorkExperience from "@/components/Portfolio/WorkExperience";
 import Footer from "@/components/Footer";
-import AboutSection from "@/components/AboutSection";
+import AboutSection from "@/components/Portfolio/AboutSection";
 
 export default function Home() {
     return (

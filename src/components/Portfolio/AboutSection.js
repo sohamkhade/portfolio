@@ -17,7 +17,7 @@ const AboutSection = () => {
                                 data-nimg="1"
                                 className="aspect-square rotate-3 rounded-2xl object-cover bg-zinc-800 scale-100 object-center"
                                 sizes="(min-width: 1024px) 32rem, 20rem"
-                                src="/aboutMe.png"
+                                src="/images/aboutMe.png"
                                 style={{color: "transparent"}}
                             />
                         </div>

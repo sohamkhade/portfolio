@@ -1,9 +1,9 @@
 'use client';
 
-import HeroSection from "@/components/HeroSection";
-import WorkExperience from "@/components/WorkExperience";
-import ImageGallery from "@/components/ImageGallery";
-import FloatingButton from "@/components/FloatingButton";
+import HeroSection from "@/components/Portfolio/HeroSection";
+import WorkExperience from "@/components/Portfolio/WorkExperience";
+import ImageGallery from "@/components/Portfolio/ImageGallery";
+import FloatingButton from "@/components/Portfolio/FloatingButton";
 
 export default function Home() {
   return (
