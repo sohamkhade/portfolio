@@ -23,6 +23,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {ToastContainer} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {Analytics} from "@vercel/analytics/next";
 
 export default function RootLayout({ children }) {
     return (
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
             <Navbar />
             {children}
             <Footer />
+            <Analytics />
         </ThemeProvider>
         </body>
         </html>
