@@ -11,8 +11,10 @@ const WorkExperience = () => {
             company: "Relyion Energy Inc",
             technologies: "React | Typescript | Javascript",
             thingsDone: [
-                "Designing real-time dashboards for a solar power plant to monitor energy generation, system performance, and equipment health.",
-                "Built a BESS monitoring module to track charge cycles, state-of-health, and optimize energy storage using real-time data."
+                "Developed a real-time solar power plant dashboard using Next.js and TypeScript to monitor energy generation and system health, improving maintenance and operational efficiency by 10%",
+                "Built a BESS monitoring module with Node.js and real-time data streams to track charge cycles and state-of-health, optimizing energy storage performance by 10-20% through more efficient data processing",
+                "Created a web app to visualize CAISO energy demand trends using Django, Python, and JavaScript, enhancing energy forecasting with real-time and historical data",
+                "Developed a platform to track Henry Hub natural gas prices, providing real-time data and trends to support market analysis and forecasting for informed trading decisions",
             ]
         },
         {
@@ -21,8 +23,9 @@ const WorkExperience = () => {
             company: "Persistent Systems",
             technologies: "Spring | SpringBoot | TIBCO",
             thingsDone: [
-                "Designed REST and SOAP-based APIs in TIBCO BusinessWorks for API integration projects, facilitating seamless communication between 3 applications and 10+ data endpoints.",
-                "Leveraged BW6's extensive library of connectors and adapters and facilitated seamless data exchange, transforming disparate data formats and ensuring data consistency across the ecosystem."
+                "Transitioned from web development to Java Full-Stack and MERN Stack, designing dynamic applications that enhanced performance by up to 20% and optimized user experience across multiple projects",
+                "Designed and implemented REST and SOAP APIs in TIBCO BusinessWorks, enabling seamless communication between applications and improving system integration by 15%",
+                "Utilized BW6’s connectors to transform data formats and ensure data consistency, optimizing business processes through smooth data exchange across systems"
             ]
         },
         {
